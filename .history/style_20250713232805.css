@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    display: flex;
+    width: 1124px;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.header-img{
+    width: 159px;
+}
+
+.search-bar {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    width: 300px;
+    display: flex;
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    border: none;
+    font-size: 16px;
+    /* rgba(204, 204, 204, 1) */
+    color: rgba(204, 204, 204, 1);
+    flex: 1;
+    background-color: transparent;
+    outline: none;
+    
+}
+
+
+.search-bar i{
+    font-size: 16px;
+    color: rgba(204, 204, 204, 1);
+}
+
+.navv{
+    display: flex;
+}
+
+.menu-bar ul{
+    display: flex;
+    gap: 14px;
+}
+
+.menu-bar ul li{
+    list-style: none;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    color: #707070;
+    font-weight: 700;
+}
+
+.menu-bar ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    display: none;
+    min-width: 120px;
+    padding: 20px 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.menu-bar ul li ul li{
+    /* margin: auto auto 10px auto; */
+    margin-bottom: 10px;
+    /* margin: auto; */
+    padding: 0  15px 0 28px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover ul{
+    display: block;
+}
+
+.herosection-with-categroy{
+    
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1212px;
+    margin:100px auto;
+    gap: 60px;
+    background-color: rgba(254, 234, 233, 1);
+    border-radius: 15px;
+    padding: 50px;
+    align-items: center;
+}
+
+
+
+.hero-content h1{
+     font-size: 56px;
+     font-weight: 700;
+}
+
+.hero-section p{
+    font-size: 16px;
+    color: rgba(78, 78, 78, 1);
+    margin: 14px 0;
+    line-height: 25px;
+}
+
+.songkha{
+    font-size: 40px;
+    color: rgba(255, 19, 111, 1);
+    margin-bottom: 15px;
+}
+
+.btn{
+    color: white;
+    font-size: 16px;
+    background: #ff3887;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
+    gap: 15px;
+    display: flex;
+}
+
+.hero-img img{
+    width: 400px;
+    height: 378px;
+}
+
+.hero-section-under{
+    width: 1128px;
+    margin: auto;
+}
+
+.hero-section-under h1{
+    font-size: 36px;
+}
+
+.hero-section-under-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.category{
+    width: 360px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 12px;
+}
+
+.category h1{
+    color: white;
+}
+
+.category img{
+    width: 90px;
+    height: 90px;
+}
+
+.watch{
+    background: #ffba26;
+}
+
+.bag{
+    background: #ff3585;
+}
+
+.shoes{
+    background: #4043fb;
+}
+
+.shobag-collection{
+    background-color: #f4f4f4;
+    margin: 100px 0;
+    padding: 80px 0;
+}
+
+.main-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.shoes-collection{
+    width: 1128px;
+    margin: auto;
+}
+
+.shoes-collection h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.shoes-collection1{
+ box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+ background-color: white;
+padding: 20px 30px;
+border-radius: 10px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.shoes-collection1 h4{
+    font-size: 24px;
+    /* text-align: center; */
+}
+
+.shoes-collection1 img{
+    width: 336px;
+    height: 202px;
+}
+
+.shoes-collection1 p{
+    font-size: 16px;
+    /* text-align: center; */
+    margin: 15px 0;
+}
+
+.shoes-collection1 h1{
+    font-size: 24px;
+    /* text-align: center; */
+    margin-bottom: 15px;
+}
+
+.btn1 {
+    display: flex;
+    gap: 16px;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.bag2 {
+    
+}

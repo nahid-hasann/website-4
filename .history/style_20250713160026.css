@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    display: flex;
+    width: 1124px;
+    margin: 20px ;
+}

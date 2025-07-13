@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header{
+    display: flex;
+    width: 1124px;
+    margin: 30px auto;
+}
+
+.header-img{
+    width: 159px;
+}
+
+.search-bar input{
+    border: none;
+    font-size: 16px;
+    rgba(204, 204, 204, 1)
+    color: rgba(204, 204, 204, 1);
+}
