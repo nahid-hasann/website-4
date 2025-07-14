@@ -274,32 +274,4 @@ align-items: center;
 
 .footer-section p {
     font-size: 16px;
-    color: rgba(112, 112, 112, 1);
-    margin: 15px 0;
-}
-
-.footer-input {
-    display: flex;
-    gap: 0;
-}
-
-.footer-input input{
-    border: none;
-    padding: 15px 20px;
-    width: 400px;
-    border-radius: 5px 0 0 5px;
-}
-
-.footer-input button{
-    border: none;
-    width: 90px;
-    background-color: #ff3e8a;
-    border-radius: 0 5px 5px 0;
-}
-
-.copyright{
-    text-align: center;
-    font-size: 16px;
-    color: black;
-    margin-bottom: 50px;
 }
